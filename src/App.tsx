@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { LanguageProvider } from '@/lib/LanguageContext';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
@@ -28,6 +29,7 @@ export default function App() {
           type={legalModalType}
           onClose={() => setLegalModalType(null)}
         />
+        <Analytics />
       </div>
     </LanguageProvider>
   );

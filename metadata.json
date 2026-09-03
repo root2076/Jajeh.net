@@ -1,0 +1,6 @@
+{
+  "name": "jajeh.net | Abduljabar Jajeh",
+  "description": "Abduljabar Jajeh – C# & Blazor Softwareentwicklung, KI-Agenten Installation (Hermes, Open Code), Mac & Windows IT-Support und Cloud-Lösungen.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
